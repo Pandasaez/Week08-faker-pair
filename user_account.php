@@ -18,6 +18,16 @@ for ($i = 1; $i <= 10; $i++) {
     $password = $faker->password; 
     $hashedPassword = hash('sha256', $password); 
     $accountCreated = $faker->dateTimeBetween('-2 years', 'now')->format('Y-m-d H:i:s'); 
+
+    echo "<tr>";
+    echo "<td>{$i}</td>";
+    echo "<td>{$userId}</td>";
+    echo "<td>{$fullName}</td>";
+    echo "<td>{$email}</td>";
+    echo "<td>{$username}</td>";
+    echo "<td>{$hashedPassword}</td>";
+    echo "<td>{$accountCreated}</td>";
+    echo "</tr>";
 }
 
 echo "</tbody></table></div>";
