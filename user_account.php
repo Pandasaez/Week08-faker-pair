@@ -10,5 +10,15 @@ echo "<table class='table table-bordered table-striped'>";
 echo "<thead class='thead-dark'><tr><th>#</th><th>User ID</th><th>Full Name</th><th>Email</th><th>Username</th><th>Password (SHA-256)</th><th>Account Created</th></tr></thead>";
 echo "<tbody>";
 
+for ($i = 1; $i <= 10; $i++) { 
+    $userId = $faker->uuid; 
+    $fullName = $faker->name; 
+    $email = $faker->email; 
+    $username = strtolower(explode('@', $email)[0]); 
+    $password = $faker->password; 
+    $hashedPassword = hash('sha256', $password); 
+    $accountCreated = $faker->dateTimeBetween('-2 years', 'now')->format('Y-m-d H:i:s'); 
+}
+
 echo "</tbody></table></div>";
 ?>
