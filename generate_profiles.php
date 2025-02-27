@@ -13,7 +13,7 @@ echo "<tbody>";
 for ($i = 1; $i <= 5; $i++) { 
     $fullName = $faker->name;
     $email = $faker->email;
-    $phoneNumber = $faker->phoneNumber;
+    $phoneNumber = '+63 ' . $faker->numerify('9#########');
     $address = $faker->address . ', ' . $faker->province . ', ' . $faker->city;
     $birthdate = $faker->date('Y-m-d');
     $jobTitle = $faker->jobTitle;

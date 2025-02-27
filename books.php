@@ -14,7 +14,7 @@ echo "<thead class='thead-dark'><tr><th>#</th><th>Title</th><th>Author</th><th>G
 echo "<tbody>";
 
 for ($i = 1; $i <= 15; $i++) { 
-    $title = $faker->sentence(3); 
+    $title = $faker->sentence(2); 
     $author = $faker->name; 
     $genre = $genres[array_rand($genres)]; 
     $publicationYear = $faker->numberBetween(1900, 2024); 
