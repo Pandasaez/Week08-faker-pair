@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 $faker = Faker\Factory::create();
 
 
-$genres = ['Fantasy', 'Mystery', 'Thriller', 'Romance', 'Non-Fiction', 'Historical Fiction', 'Horror'];
+$genres = ['Fantasy', 'Mystery', 'Thriller', 'Romance', 'Science Fiction', 'Historical', 'Horror','Fiction'];
 
 echo "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css' rel='stylesheet'>";
 echo "<div class='container mt-5'>";
