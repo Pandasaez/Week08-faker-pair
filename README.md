@@ -38,6 +38,6 @@ Each user account should include:
 • Full Name (Randomly generated)
 • Email Address
 Username (Lowercase version of the first part of the email)
-• Password (Random password, encrypted using SHA-256
+• Password (Random password, encrypted using SHA-256)
 • Account Created (Random datetime in the past 2 years)
 Write a PHP script using Faker to generate 10 fake user accounts and display them in a formatted table.
