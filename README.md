@@ -1,6 +1,8 @@
 # Week08-faker-pair
 Class Activity App Dev
 
+By Zuriel Montallana & Jasper Saez
+
 See full documentation of PHP Faker here: https://fakerphp.org/
 Create a GitHub repository titled week08-faker-pair. Add your assigned pair as a collaborator to this repository. For each of the problems outlined below, develop a corresponding PH file. Implement Bootstrap styling for the tables within these PHP files, utilizing the CDN and pre-existing Bootstrap classes.
 1. Create PHP script to generate fake user profiles, but this time using localized data for the Philippines.
